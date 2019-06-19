@@ -1,0 +1,51 @@
+/* Sidebar navigation */
+.sidebar {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.sidebar .nav {
+  margin-bottom: 20px;
+}
+
+.sidebar .nav-item {
+  width: 100%;
+}
+
+.sidebar .nav-item + .nav-item {
+  margin-left: 0;
+}
+
+.sidebar .nav-link {
+  border-radius: 0;
+}
+
+/*サイドバー文字変更*/
+.nav-link {
+  color: #666666;
+  font-family: 'Amatic SC', cursive;
+  font-size: 28px;
+}
+
+.title-mypage {
+  color: #666666;
+  font-family: 'Amatic SC', cursive;
+  font-size: 28px;
+}
+
+ /* Pictures */
+.myphoto-area {
+  margin-left: 340px;
+  margin-right: 50px;
+}
+
+.pictures {
+  padding-bottom: 3rem;
+  width: 970px;
+  margin: 20px;
+}
+
+main img {
+  padding: 1.5rem;
+  border: 1px solid #CCCCCC;
+}

@@ -1,0 +1,179 @@
+/**************************************
+ * 全Page 共通 CSS
+ **************************************/
+.wrapper{
+    padding-top:4.5rem;
+}
+
+/* -- Navigation tobpar -- */
+.navbar{
+    border-bottom: 2px solid #32CDA6;
+}
+.navbar-brand {
+  padding-left: 10px;
+}
+img.home-logo {
+    width: 180px;
+}
+
+/*webフォント*/
+@font-face {
+  font-family: 'kodomo';
+  src: url('/KodomoRounded-Light.otf') format('opentype');
+}
+
+.mypage{
+  list-style-type: none;
+  display: inline;
+  font-family: 'Amatic SC', cursive,'kodomo';
+  font-size: 28px;
+  color: #666666;
+}
+
+.btn-mypage{
+    color: #FF3F6F;
+    padding-right: 15px;
+}
+
+.guest{
+  list-style-type: none;
+  display: inline;
+  font-family: 'Amatic SC', cursive;
+  font-size: 28px;
+  color: #666666;
+  padding-left: 20px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 80px;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 20px;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  border-right: 1px solid #eee;
+}
+
+.sns-logo{
+    color:#32CDA6;
+}
+
+/* -- Navigation Sidebar -- */
+.sidebar {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.sidebar .nav {
+  margin-bottom: 20px;
+}
+
+.sidebar .nav-item {
+  width: 100%;
+}
+
+.sidebar .nav-item + .nav-item {
+  margin-left: 0;
+}
+
+.sidebar .nav-link {
+  border-radius: 0;
+}
+
+/*サイドバー文字変更*/
+.nav-link {
+  color: #666666;
+  font-family: 'Amatic SC', cursive;
+  font-size: 28px;
+}
+
+.nav-category-link {
+  color: #666666;
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+  padding-left: 30px;
+}
+
+.fa-search{
+  color:#FF3F6F;
+}
+
+/*joinボタン*/
+/* 通常のボタン色 */
+.btn-outline-primary,
+.btn-outline-primary.disabled, .btn-outline-primary:disabled {
+  color: #FF3F6F;
+  background-color: none;
+  border-color: #FF3F6F;
+  border: 3px solid #FF3F6F;
+  width: 100px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+}
+/* hover時（マウスカーソルを重ねた時）の色（通常より濃いor暗めの色を指定）*/
+.btn-outline-primary:hover {
+  color: white;
+  background-color: #32CDA6;
+  border-color: #32CDA6;
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+}
+
+/*searchボタン*/
+.search {
+  padding-top: 10px;
+  padding-left: 16px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+}
+
+/*photo area*/
+main {
+  margin-left: 300px;
+}
+
+.photo-area {
+  text-align: center;
+}
+
+.picture {
+  margin: 30px;
+}
+
+.picture img {
+  padding: 1.5rem;
+  border: 1px solid #CCCCCC;
+}
+
+#created_at{
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+  color: #666666;
+  padding-right: 10px;
+}
+
+.picture li {
+  display: inline;
+}
+
+/*dislikeボタン*/
+.btn-secondly,
+.btn-secondly.disabled, .btn-secondly:disabled {
+  width: 50px;
+  text-align: center;
+  color: #32CDA6;
+  border: none;
+}
+/* hover時（マウスカーソルを重ねた時）の色（通常より濃いor暗めの色を指定）*/
+.btn-secondly:hover {
+  color: #32CDA6;
+}
+
+/*logoutボタン*/
+.btn-logout{
+  color: #32CDA6;
+  border-color: #32CDA6;
+  border: 3px solid #32CDA6;
+}

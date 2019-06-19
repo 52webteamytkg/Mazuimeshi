@@ -1,0 +1,51 @@
+body, html {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    /*overflow: hidden;*/ /*画面スクロールできなくするコマンド*/
+    position: relative;
+    margin-right: 0 !important;
+    margin: 0;
+    background-image: url("../imgs/mazui_bg.png");
+}
+
+.bg {
+	height: 100%;
+  background: rgba(255,255,255,0.5);
+}
+
+.site-name {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 40px;
+	color: #32CDA6;
+	margin-bottom: 0;
+}
+
+.subname {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 20px;
+	color: #FF3F6F;
+}
+
+.text-en {
+	margin-bottom: 0;
+	font-size: 17px;
+	color: #808080;
+}
+
+.text-ja {
+	margin-bottom: 0;
+	font-size: 15px;
+	color: #7F7F7F;
+}
+
+.textarea {
+	margin-bottom: 10px;
+}
+
+a {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 20px;
+	color: #FF3F6F;
+	padding: 25px;
+}

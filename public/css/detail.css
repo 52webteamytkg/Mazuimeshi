@@ -1,0 +1,65 @@
+.container {
+	margin-left: 250px;
+	margin-right: 20px;
+}
+
+.pic img{
+	height: 400px;
+	marigin: 0;
+}
+
+.btn-dislike li {
+	display: inline-block;
+	color: #32CDA6;
+	padding : 15px 10px;
+}
+
+@font-face {
+  font-family: 'kodomo';
+  src: url('/KodomoRounded-Light.otf') format('opentype');
+}
+
+.pic-title {
+	font-family: 'Amatic SC', cursive, 'kodomo';
+	font-size: 40px;
+}
+
+p {
+	margin: 0;
+}
+
+.coment-list{
+    padding: 20px;
+    list-style: none;
+}
+
+label {
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+}
+
+.btn-submit {
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+}
+/*submitボタン*/
+/* 通常のボタン色 */
+.btn-submit .btn-outline-primary,
+.btn-outline.primary.disabled, .btn-outline-primar:disabled {
+  color: #666666;
+  background-color: #32CDA6;
+  border-color: #32CDA6;
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+  width: 100px;
+}
+/* hover時（マウスカーソルを重ねた時）の色（通常より濃いor暗めの色を指定）*/
+.btn-submit .btn-outline-primary:hover {
+  color: #666666;
+  background-color: #FFF321;
+  border-color: #FFF321;
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+  width: 100px;
+}
