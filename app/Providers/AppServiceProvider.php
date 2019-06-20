@@ -14,6 +14,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        if (\App::environment('heroku')) {
+            \URL::forceScheme('https');
+        }
         Schema::defaultStringLength(191);
     }
 
@@ -26,4 +29,5 @@ class AppServiceProvider extends ServiceProvider
     {
         //
     }
+
 }
