@@ -83,7 +83,6 @@
                 </div>
                 <div class="btn-dislike">
                     <ul>
-                        <li><i class="fas fa-thumbs-down fa-2x"></i></li>
                         <li>
                             <form class="d-inline" method="POST" action="{{ route('post.dislike', ['post_id' => $post->id]) }}" >
                                 @csrf

@@ -101,11 +101,11 @@ label {
 
 /*コメント欄*/
 #comment {
-  width: 500px;
-  height: 130px;
-  padding: 10px;
-  margin: 10;
   border: 1px solid #CCCCCC;
+  height: 130px;
+  width: 500px;
+  margin: 10;
+  padding: 10px;
 }
 
 /*newpost-button*/
