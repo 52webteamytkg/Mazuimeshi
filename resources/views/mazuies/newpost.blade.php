@@ -31,8 +31,8 @@
         <main class="post-photo pt-2">
           <p class="title-newpost">New post</p>
               <!-- アップ画像 -->
-              <div class="col-lg-3 picture">
-                  <img src="imgs/pictures/pizza.png" width="400" height="400" alt="Posting Photo">
+              <div class="col-lg-3 picture" id="boxImage">
+                  <img src="" width="400" height="400" alt="Posting Photo" accept="image/*" id="imgFile" type="file">
               </div>
 
               <form class="created_post">
@@ -56,4 +56,19 @@
               </form>
         </main>
     </form>
+
+    {{-- ファイル選択の画像表示 --}}
+    <script>
+      var elm = document.getElementById("img_url");
+      elm.onchange = function(evt){
+        var selectFiles = evt.target.files;
+        if(selectFiles.length != 0) {
+          var fr = new FileReader();
+          fr.readAsDataURL(selectFiles[0]);
+          fr.onload = function(evt) {
+            document.getElementById('boxImage').innerHTML = '<img src="' + fr.result + '" alt="" style="min-height:400px;max-height:400px;">'; //readAsDataURLで得た結果を、srcに入れたimg要素を生成して挿入
+          }
+        }
+      }
+    </script>
   @endsection

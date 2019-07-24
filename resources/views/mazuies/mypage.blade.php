@@ -40,7 +40,7 @@
               </div>
 
               <div class="col-lg-3 picture">
-                <img src="imgs/pictures/ice.png" width="200" height="200" alt="">
+                <img src="imgs/pictures/cake.JPG" width="200" height="200" alt="">
               </div>
 
               <div class="col-lg-3 picture">
@@ -52,7 +52,7 @@
               </div>
 
               <div class="col-lg-3 picture">
-                <img src="imgs/pictures/dinner.JPG" width="200" height="200" alt="">
+                <img src="imgs/pictures/sausage.jpeg" width="200" height="200" alt="">
               </div>
           </form>
 
@@ -68,7 +68,7 @@
               </div>
 
               <div class="col-lg-3 picture">
-                <img src="imgs/pictures/cake.JPG" width="200" height="200" alt="">
+                <img src="imgs/pictures/tako.JPG" width="200" height="200" alt="">
               </div>
 
               <div class="col-lg-3 picture">
@@ -80,7 +80,7 @@
               </div>
 
               <div class="col-lg-3 picture">
-                <img src="imgs/pictures/panini.JPG" width="200" height="200" alt="">
+                <img src="imgs/pictures/mooncafe.jpg" width="200" height="200" alt="">
               </div>
             </form>
         </main>

@@ -23,11 +23,11 @@ img.home-logo {
 }
 
 .mypage{
-  list-style-type: none;
-  display: inline;
+  color: #666666;
   font-family: 'Amatic SC', cursive,'kodomo';
   font-size: 28px;
-  color: #666666;
+  display: inline;
+  list-style-type: none;
 }
 
 .btn-mypage{
@@ -36,24 +36,24 @@ img.home-logo {
 }
 
 .guest{
-  list-style-type: none;
+  color: #666666;
   display: inline;
   font-family: 'Amatic SC', cursive;
   font-size: 28px;
-  color: #666666;
+  list-style-type: none;
   padding-left: 20px;
 }
 
 .sidebar {
   position: fixed;
-  top: 80px;
+  border-right: 1px solid #eee;
   bottom: 0;
   left: 0;
-  z-index: 1000;
+  top: 80px;
   padding: 20px;
   overflow-x: hidden;
   overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-  border-right: 1px solid #eee;
+  z-index: 1000;
 }
 
 .sns-logo{
@@ -106,11 +106,11 @@ img.home-logo {
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
   color: #FF3F6F;
   background-color: none;
-  border-color: #FF3F6F;
   border: 3px solid #FF3F6F;
-  width: 100px;
+  border-color: #FF3F6F;
   font-family: 'Amatic SC', cursive;
   font-size: 20px;
+  width: 100px;
 }
 /* hover時（マウスカーソルを重ねた時）の色（通常より濃いor暗めの色を指定）*/
 .btn-outline-primary:hover {
@@ -123,10 +123,10 @@ img.home-logo {
 
 /*searchボタン*/
 .search {
-  padding-top: 10px;
-  padding-left: 16px;
   font-family: 'Amatic SC', cursive;
   font-size: 20px;
+  padding-left: 16px;
+  padding-top: 10px;
 }
 
 /*photo area*/
@@ -143,14 +143,14 @@ main {
 }
 
 .picture img {
+  box-shadow: 0 0 0 3px #32CDA6, 0 0 0 3px #FFF321 inset; /* 影 */
   padding: 1.5rem;
-  border: 1px solid #CCCCCC;
 }
 
 #created_at{
+  color: #666666;
   font-family: 'Amatic SC', cursive;
   font-size: 20px;
-  color: #666666;
   padding-right: 10px;
 }
 
@@ -161,10 +161,10 @@ main {
 /*dislikeボタン*/
 .btn-secondly,
 .btn-secondly.disabled, .btn-secondly:disabled {
-  width: 50px;
-  text-align: center;
   color: #32CDA6;
   border: none;
+  text-align: center;
+  width: 50px;
 }
 /* hover時（マウスカーソルを重ねた時）の色（通常より濃いor暗めの色を指定）*/
 .btn-secondly:hover {
@@ -174,6 +174,5 @@ main {
 /*logoutボタン*/
 .btn-logout{
   color: #32CDA6;
-  border-color: #32CDA6;
   border: 3px solid #32CDA6;
 }
